@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: linear-gradient(354deg, #137DF5 0%, #14B1F8 100%);
+  width: 320px;
+  min-height: 550px;
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.container_date {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-bottom: 1.5rem;
+}
+
+.container_city {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.container_img {
+  width: 120px;
+  margin: 10px auto;
+}
+
+.container_degree {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.country_per {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+
+/* Form Section */
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #e8e8e8;
+  width: 100%;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  padding: 0.75rem 1rem;
+  background: #e8e8e8;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input::placeholder {
+  color: #888;
+}
+
+.input:focus {
+  outline: none;
+  background: #f0f0f0;
+}
+
+/* Button */
+button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: #137DF5;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
