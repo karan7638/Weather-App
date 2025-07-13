@@ -83,25 +83,6 @@ Then open your browser at: `http://localhost:5173/`
 
 ---
 
-## 📁 Folder Structure
-
-```
-.
-├── public
-├── src
-│   ├── Api/           # Optional test components
-│   ├── assets/        # Weather icons/images
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── style.css
-│   └── ...
-├── .env
-├── index.html
-├── vite.config.js
-└── README.md
-```
-
----
 
 ## 🧠 How It Works
 
