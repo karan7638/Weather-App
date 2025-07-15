@@ -94,5 +94,3 @@ Then open your browser at: `http://localhost:5173/`
   - Weather icon based on condition
   - Temperature in °C
   - Weather description
-
-
